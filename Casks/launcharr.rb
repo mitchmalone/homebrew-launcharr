@@ -8,7 +8,7 @@ cask "launcharr" do
   homepage "https://launcharr.com"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "launcharr.app"
 
