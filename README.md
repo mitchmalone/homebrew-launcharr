@@ -1,10 +1,10 @@
-# homebrew-launcharr
+# homebrew-launcharr — ARCHIVED
 
-Homebrew tap for [launcharr](https://launcharr.com) — an app launcher for pirates.
+The launcharr cask moved to the shared tap
+[`mitchmalone/homebrew-tap`](https://github.com/mitchmalone/homebrew-tap) on 2026-08-12.
 
 ```sh
-brew install mitchmalone/launcharr/launcharr
+brew untap mitchmalone/launcharr
+brew tap mitchmalone/tap
+brew install mitchmalone/tap/launcharr
 ```
-
-The cask's `version` and `sha256` are bumped automatically by the release pipeline
-(`launcharr/scripts/release.sh`, step 9). Don't edit by hand.
